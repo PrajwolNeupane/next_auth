@@ -43,6 +43,7 @@ export default function SignUpPage() {
                 >
                     Sign Up
                 </button>
+                <Link href={'/login'}>Visit Login Page</Link>
             </div>
         </div>
     );
