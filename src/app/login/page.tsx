@@ -38,7 +38,7 @@ export default function SignUpPage() {
                 >
                     Log In
                 </button>
-                <Link href={'/signup'}>Visit SignUp Page</Link>
+                <Link href={'/signup'} className="text-gray-100 text-center">Visit SignUp Page</Link>
             </div>
         </div>
     );
