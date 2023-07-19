@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 export async function connect() {
     try{
-        mongoose.connect(`mongodb+srv://prajwolneupane68:${encodeURIComponent("s@fn39tb")}@cluster0.xgkgj0h.mongodb.net/?retryWrites=true&w=majority`);
+        mongoose.connect(`mongodb+srv://prajwolneupane68:${encodeURIComponent(process.env.DB_PASSWORD!)}@cluster0.xgkgj0h.mongodb.net/?retryWrites=true&w=majority`);
 
         const connection = mongoose.connection;
 
